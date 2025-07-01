@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Table Example</title>
+    <style>
+        table {
+            width: 70%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+
+        th,
+        td {
+            border: 1px solid #555;
+            padding: 12px;
+            text-align: center;
+        }
+
+        thead {
+            background-color: #980300;
+            color: white;
+        }
+
+        tfoot {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Product Price List</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Qty</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>XZ
+                <td>Apples</td>
+                <td>10</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Bananas</td>
+                <td>6</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Oranges</td>
+                <td colspan="2">Out of stock</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Prices may change without notice</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
