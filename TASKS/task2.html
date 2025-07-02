@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form</title>
+</head>
+<body>
+
+  <h2>Registration Form</h2>
+
+  <form action="#" method="post">
+
+    <!--Full Name -->
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+
+    <!--Email -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <!--Gender-Radio Buttons -->
+    <p>What is your gender?</p>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label><br>
+
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label><br>
+
+    <input type="radio" id="other" name="gender" value="other" required>
+    <label for="other">Other</label><br><br>
+
+    <!--Checkboxes-->
+    <p>Which languages do you know?</p>
+    <input type="checkbox" id="Gujarati" name="languages" value="Gujarati">
+    <label for="Gujarati">Gujarati</label><br>
+
+    <input type="checkbox" id="Hindi" name="languages" value="Hindi">
+    <label for="Hindi">Hindi</label><br>
+
+    <input type="checkbox" id="English" name="languages" value="English">
+    <label for="English">English</label><br>
+
+    <input type="checkbox" id="Marathi" name="languages" value="Marathi">
+    <label for="Marathi">Marathi</label><br><br>
+
+    <!--Country-Dropdown-->
+    <label for="country">Choose your country:</label><br>
+    <select id="country" name="country">
+      <option value="india">India</option>
+      <option value="uk">Russia</option>
+      <option value="usa">USA</option>
+      <option value="uk">Australia</option>
+      <option value="uk">UK</option>
+    </select><br><br>
+
+    <!--Buttons-->
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+  </form>
+
+</body>
+</html>
